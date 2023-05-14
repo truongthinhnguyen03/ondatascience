@@ -1,6 +1,7 @@
 import streamlit as st
+import mermaid
 
 st.write("""
-# Project app
+# On Data Science
 
 """)
