@@ -29,8 +29,6 @@ def get_data_from_list(indicators):
     data = wb.data.DataFrame(indicator_list['id'], 'VNM',
                              skipBlanks=True, numericTimeKeys=False, columns='series')
     data.index = pd.to_datetime(data.index, format='YR%Y').strftime('%Y')
-    data.style.format(precision=2)\
-              .background_gradient(cmap='Blues')
     return indicator_list, data
 
 def make_subplot_from_list(indicators):
