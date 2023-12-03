@@ -9,7 +9,6 @@ import math
 st.set_page_config(
     page_title="ThinhNT Portfolio / Project 4",
     page_icon="chart_with_upwards_trend",
-    layout="wide",
     initial_sidebar_state="collapsed"
 )
 
